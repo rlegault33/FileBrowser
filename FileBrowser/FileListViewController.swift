@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class FileListViewController: UIViewController {
     
@@ -29,7 +30,7 @@ class FileListViewController: UIViewController {
         let searchController = UISearchController(searchResultsController: nil)
         searchController.searchBar.searchBarStyle = .minimal
         searchController.searchBar.backgroundColor = UIColor.white
-        searchController.dimsBackgroundDuringPresentation = false
+        //searchController.dimsBackgroundDuringPresentation = false
         return searchController
     }()
     

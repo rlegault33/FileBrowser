@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /// File browser containing navigation controller.
 open class FileBrowser: UINavigationController {
